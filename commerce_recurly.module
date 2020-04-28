@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains commerce_recurly.module.
+ */
+
+use Drupal\commerce_recurly\Event\RecurlySuccessfulPaymentEvent;
+use Drupal\commerce_recurly\Event\RecurlyWebhookEvents;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function commerce_recurly_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.commerce_recurly':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Recurly payment gateway for Drupal Commerce. This module currently declares a dependency on the Recurly module as a method of interaction with Webhooks. That dependency will remain until this can be abstracted out.') . '</p>';
+      return $output;
+  }
+}

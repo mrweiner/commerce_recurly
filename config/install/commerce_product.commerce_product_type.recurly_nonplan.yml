@@ -1,0 +1,10 @@
+status: true
+dependencies: {  }
+id: recurly_nonplan
+label: 'Recurly Nonplan'
+description: ''
+variationType: recurly_nonplan_variation
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

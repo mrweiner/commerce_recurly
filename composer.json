@@ -1,0 +1,16 @@
+{
+    "name": "commerce_recurly",
+    "type": "drupal-module",
+    "description": "Provides Commerce integration for Recurly.",
+    "require": {
+        "drupal/commerce": "~2.0",
+        "drupal/recurly": "dev-use-v3-api--dev2",
+        "recurly/recurly-client": "^3.1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mrweiner/recurly"
+        }
+    ]
+}

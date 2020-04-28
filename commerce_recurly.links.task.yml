@@ -1,0 +1,13 @@
+commerce_recurly.settings_form:
+  title: Settings
+  parent: 'commerce.admin_commerce'
+  route_name: commerce_recurly.settings_form
+  base_route: commerce_recurly.settings_form
+  weight: 1
+
+commerce_recurly.settings_form.custom_fields:
+  title: 'Custom fields'
+  parent: 'commerce_recurly.settings_form'
+  route_name: commerce_recurly.settings_form.custom_fields
+  base_route: commerce_recurly.settings_form
+  weight: 2

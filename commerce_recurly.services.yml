@@ -1,0 +1,9 @@
+services:
+  commerce_recurly.recurly_client:
+    class: Drupal\commerce_recurly\RecurlyClient
+
+  commerce_recurly.webhook_subscriber:
+    class: Drupal\commerce_recurly\EventSubscriber\WebhookSubscriber
+    tags:
+      - { name: 'event_subscriber' }
+

@@ -1,0 +1,13 @@
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: digital_goods
+label: 'Recurly Nonplan'
+id: recurly_nonplan
+purchasableEntityType: commerce_product_variation
+orderType: recurly
+traits: {  }
+locked: false

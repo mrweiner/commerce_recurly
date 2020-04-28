@@ -1,0 +1,16 @@
+commerce_recurly.settings_form:
+  path: '/admin/commerce/recurly'
+  defaults:
+    _title: Commerce Recurly
+    _form: \Drupal\commerce_recurly\Form\CommerceRecurlySettingsForm
+  requirements:
+    _permission: 'administer recurly'
+
+commerce_recurly.settings_form.custom_fields:
+  path: '/admin/commerce/recurly/custom-fields'
+  defaults:
+    _title: 'Custom Fields'
+    _form: \Drupal\commerce_recurly\Form\CommerceRecurlyCustomFieldsSettingsForm
+  requirements:
+    _permission: 'administer recurly'
+

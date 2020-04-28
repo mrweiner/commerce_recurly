@@ -1,0 +1,8 @@
+name: 'Commerce Recurly'
+type: module
+description: 'Recurly payment gateway for Drupal Commerce.'
+core: 8.x
+package: 'DYWM'
+dependencies:
+  - commerce:commerce_payment
+  - recurly

@@ -1,0 +1,16 @@
+# config/schema/commerce_recurly.schema.yml
+commerce_payment.commerce_payment_gateway.plugin.recurly_js_checkout:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    subdomain:
+      type: string
+      label: 'Subdomain'
+    private_key:
+      type: string
+      label: 'Private key'
+    public_key:
+      type: string
+      label: 'Public key'
+    account_id_pattern:
+      type: string
+      label: 'Account ID pattern'

@@ -1,0 +1,14 @@
+status: true
+dependencies:
+  module:
+    - commerce_license
+third_party_settings:
+  commerce_license:
+    license_types: {  }
+    activate_on_place: false
+id: recurly_plan_variation
+label: 'Recurly Plan Variation'
+orderItemType: recurly_plan
+generateTitle: false
+traits: {  }
+locked: false

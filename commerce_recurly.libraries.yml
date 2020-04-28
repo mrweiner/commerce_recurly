@@ -1,0 +1,27 @@
+checkout:
+  version: 1.0
+  js:
+    js/commerce_recurly.checkout.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+admin:
+  version: 1.0
+  js:
+    js/commerce_recurly.admin.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+recurlyjs:
+  version: 4.0
+  css:
+    base:
+      https://js.recurly.com/v4/recurly.css: { type: external }
+  js:
+    https://js.recurly.com/v4/recurly.js: { type: external }

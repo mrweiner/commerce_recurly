@@ -1,0 +1,10 @@
+status: true
+dependencies: {  }
+id: recurly_plan
+label: 'Recurly Plan'
+description: ''
+variationType: recurly_plan_variation
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false
